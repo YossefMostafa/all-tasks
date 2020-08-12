@@ -1,0 +1,166 @@
+body{
+    font-family: 'Red Rose', cursive;
+    background-image: url(pics/laptop.webp);
+    background-repeat: no-repeat;
+    background-size: 1600px 790px ;
+}
+header{
+    text-align: left;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.nav-bar ul{
+    list-style: none;
+    word-spacing: 10px;
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+ul li{
+    display: inline-block;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.themes{
+    color: white;
+    text-align: center;
+    font-size: xxx-large;
+    text-shadow: 2px 2px 3px black;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+hr{
+    margin: 0 auto;
+    width: 3%;
+    border: 1px solid red;
+}
+.description{
+    color: white;
+    font-size: initial;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 2px 2px 3px black;
+}
+.button1{
+    background-color: red;
+    font-family: 'Red Rose', cursive;
+    color: white;
+    padding: 0.3rem;
+    border-radius: 12px;
+    margin-left: 46rem;
+}
+.button1:hover{
+    color: black;
+}
+.GetStarted{
+    width: 1361px;
+    background-color: #F4623A;
+    border: 15px solid #F4623A;
+    margin: -8px;
+    padding: 6rem;
+}
+.select{
+    color: white;
+    font-size: xxx-large;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.start{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    opacity: 0.7;
+}
+.button2{
+    background-color: white;
+    font-family: 'Red Rose', cursive;
+    color: black;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-left: 38.5rem;
+}
+.button2:hover{
+    color: red;
+}
+.service-section{
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Red Rose', cursive; 
+    font-size: xx-large; 
+}
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: small;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.free-download{
+    background-color: #343A40;
+    text-align: center;
+    font-size: xx-large;
+    color: blanchedalmond;
+    padding: 9rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+.button3{
+    color: black;
+    background-color: white;
+    padding: 1.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 50px;
+}
+.button3:hover{
+    color: red;
+}
+.contact{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 8rem;
+    font-size: 2.5rem ;
+}
+.ready{
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+.logos2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.connect{
+    font-size: large;
+}
+.special{
+    color: black;
+}
+footer{
+    text-align: center;
+    font-size: smaller;
+    opacity: 0.7;
+}
