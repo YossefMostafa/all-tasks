@@ -34,11 +34,29 @@ ul{
 .bg-dark{
     background-color: #2f2f2f;
 }
+.text-red{
+    color: red;
+}
+.bg-color{
+    background-color: #f1d9df;
+    position: relative;
+    margin-left: 22rem;
+    width: 900px;
+    height: 200px;
+}
+.bg-work{
+    background-color: #f1d9df;
+    position: relative;
+    width: 100%;
+}
 .text-primary{
     color: #fed136;
 }
 .text-white{
     color: white;
+}
+.text-testimonial{
+    color: lightblue;
 }
 /* Navbar Style */
 .nav-bar{
@@ -67,21 +85,18 @@ ul{
 /*ShowCase Style*/
 .showcase{
     height: 695px;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .showcase .showcase-text{
     padding-top: 200px;
-    font-family: 'Baloo Tamma 2', cursive;
 }
 .showcase .subheading{
-    font-size: 2.5rem;
-    word-spacing: 8px;
+    font-size: 3.5rem;
+    font-family: 'Comic Neue', cursive;
     padding: 30px 0;
-    text-shadow: 1.5px 1.5px 3px black;
-    font-weight: 600;
 }
 .showcase .subheading p{
     display: inline;
@@ -89,13 +104,11 @@ ul{
 }
 .showcase .showcase-text .mashed-heading{
     font-size: 1rem;
-    font-weight: bold;
     text-transform: capitalize;
-    text-shadow: 1.5px 1.5px 3px black;
 }
 .showcase .container button{
-    color: white;
-    background-color: black;
+    color: black;
+    opacity: 0.2;
     margin: 50px;
     margin-top: 20;
     padding: 10px;
@@ -103,21 +116,247 @@ ul{
     border: none;
     border-radius: 45px;
 }
-/* About Styles */
-.about{
-    margin-top: 50px;
+.showcase .container button:hover{
+    opacity: 1;
+    border: none;
+    color: white;
+    background-color: red;
+}
+/* Elementum Styles */
+.Elementum, .about{
+    padding-top: 60px;
+}
+.Elementum .row{
     display: flex;
     justify-content: space-around;
 }
-.about .laoreet{
-    font-weight: bold;
+.Elementum .row .logo1 h3::before{
+    content: url(../images/idea.png);
+    position: relative;
+    bottom: -40px;
+    right: 70px;
 }
-/* Work */
-.work{
-    padding-top: 55px;
+.Elementum .row .logo2 h3::before{
+    content: url(../images/eye.png);
+    position: relative;
+    bottom: -40px;
+    right: 70px;
 }
-.work .images{
+.Elementum .row .logo3 h3::before{
+    content: url(../images/heart.png);
+    position: relative;
+    bottom: -40px;
+    right: 70px;
+}
+/* Work Styles */
+.work, .Testimonials{
+    padding-top: 150px;
+}
+.work .container h3,
+.Testimonials h3,
+.Subscribe .col .sub,
+.about h3,
+.contact h3{
+    font-family: 'Comic Neue', cursive;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.work .container .row{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.work .container .row .col1{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.work .container .row .col2{
+    margin-bottom: 30px;
+}
+.work .container .row .col3{
+    margin-right: 30px;
+}
+.work .container button,
+.Subscribe .col button{
+    color: white;
+    background-color: red;
+    border-radius: 40px;
+    padding: 15px 25px 15px 25px;
+    border: none;
+}
+.work .container button:hover,
+.Subscribe .col button:hover,
+input[type=submit]:hover{
+    background-color: black;
+}
+/* Testimnonial Styles */
+.Testimonials .quote{
+    padding-top: 30px;
+}
+.Testimonials .quote q{
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive;
+}
+.Testimonials .name{
     padding-top: 30px;
     display: flex;
     justify-content: space-around;
+    margin-right: 40rem;
+    padding-bottom: 80px;
+}
+.Testimonials .name .fas h5{
+    color: black;
+    display: inline;
+    font-size: 30px;
+}
+/* Subscribe Styles */
+.Subscribe{
+    display: flex;
+    margin-top: 50px;
+    background-image: url(../images/image2.jpg);
+    padding: 50px;
+}
+.Subscribe .col .sub{
+    color: white;
+    margin-left: 150px;
+    font-size: 30px;
+}
+.Subscribe .col .join{
+    color: white;
+    margin-left: 150px;
+    font-family: 'Comic Neue', cursive;
+}
+.Subscribe .col button{
+    display: inline-block;
+    margin-left: 65rem;
+    position: relative;
+    top: -50px;
+}
+/* About Styles */
+.about h3{
+    text-align: center;
+}
+.about .p1,
+.about .p2{
+    font-family: 'Comic Neue', cursive;
+    line-height: normal;
+    padding-top: 20px;
+    font-size: 15px;
+    margin-left: 200px;
+}
+.about .clients h4{
+    font-family: 'Comic Neue', cursive;
+    position: relative;
+    bottom: 210px;
+    margin-left: 60rem;
+    font-size: small;
+}
+.about .clients h1{
+    font-family: 'Comic Neue', cursive;
+    position: relative;
+    margin-left: 980px;
+    bottom: 195px;
+    font-size: 50px;
+    color: red;
+}
+.about .projects h4{
+    font-family: 'Comic Neue', cursive;
+    position: relative;
+    bottom: 264px;
+    margin-left: 66rem;
+    font-size: small;
+}
+.about .projects h1{
+    font-family: 'Comic Neue', cursive;
+    position: relative;
+    margin-left: 1100px;
+    bottom: 248px;
+    font-size: 50px;
+    color: red;
+}
+/* Contact Styles */
+.contact h3{
+    text-align: center;
+}
+input[type=text]{
+    width: 250px;
+    margin-top: 30px;
+    position: relative;
+    margin-left: 20rem;
+    border: none;
+    border-bottom: 2px solid red;
+}
+input[type=email]{
+    width: 250px;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 2px solid red;
+}
+textarea{
+    border: none;
+    border-bottom: 2px solid red;
+    position: relative;
+    margin-left: 20rem;
+    margin-top: 40px;
+}
+input[type=submit]{
+    color: white;
+    background-color: red;
+    border-radius: 40px;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    margin-top: 35px;
+    margin-left: 32rem ;
+}
+.contact h4{
+    font-family: 'Comic Neue', cursive;
+    position: relative;
+    color: red;
+    font-size: 30px;
+    margin-left: 60rem;
+    bottom: 22rem;
+}
+.contact p{
+    font-family: 'Comic Neue', cursive;
+    font-size: 17px;
+    line-height: normal;
+    position: relative;
+    margin-left: 60rem;
+    bottom: 21rem;
+}
+.contact .info{
+    position: relative;
+    font-size: small;
+    margin-left: 60rem;
+    bottom: 19rem;
+}
+.contact .info .fas span{
+    color: black;
+    margin-left: 10px;
+}
+/* Footer Styles */
+footer .copy{
+    font-family: 'Comic Neue', cursive;
+    font-size: small;
+    position: relative;
+    margin-left: 18rem;
+}
+footer .logos{
+    position: relative;
+    margin-left: 46rem;
+    bottom: 30px;
+}
+footer .credit{
+    font-family: 'Comic Neue', cursive;
+    font-size: small;
+    position: relative;
+    margin-left: 73rem;
+    bottom: 80px;
+}
+footer .credit span{
+    color: red;
 }
