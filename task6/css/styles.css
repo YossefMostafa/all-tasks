@@ -431,7 +431,7 @@ input[type=submit]:hover{
     margin-top: -450px;
 }
 /* Footer Styles */
-footer{
+.imp-links{
     padding-top: 100px;
     padding-bottom: 50px;
     font-family: 'Poppins', sans-serif;
@@ -441,27 +441,27 @@ footer{
     padding-right: 200px;
     padding-bottom: 100px;
 }
-footer a:hover{
+.imp-links a:hover{
     color: tomato;
 }
-footer ul li{
+.imp-links ul li{
     display: block;
 }
-footer .info h3,
-footer .Menu h3,
-footer .useful h3,
-footer .us h4{
+.imp-links .info h3,
+.imp-links .Menu h3,
+.imp-links .useful h3,
+.imp-links .us h4{
     padding-bottom: 20px;
     font-weight: 700;
     font-size: 25px;
 }
-footer .info h5,
-footer .Menu h5,
-footer .useful h5,
-footer .us h5{
+.imp-links .info h5,
+.imp-links .Menu h5,
+.imp-links .useful h5,
+.imp-links .us h5{
     font-weight: 300;
 }
-.rights{
+footer{
     text-align: center;
     padding-top: 20px;
     font-family: 'Poppins', sans-serif;
