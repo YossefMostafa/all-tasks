@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+header{
+    padding-bottom: 50px;
+}
+header h1{
+    font-size: 50px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 350px;
+    box-shadow: 0 5px 10px black;
+}
+.gallery .images{
+    margin-left: 230px;
+    margin-right: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gallery .images img{
+    transition: 1s;
+    transition-delay: 0.5s;
+} 
+.gallery .images img:hover{
+    height: 350px;
+    width: 400px;
+}
