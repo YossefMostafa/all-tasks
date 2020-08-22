@@ -1,0 +1,57 @@
+@charset 'utf-8';
+/* Main Styles */
+html , body{
+    font-family: 'Sriracha', cursive;
+    line-height: 1.7rem;
+}
+/* Nav-Bar Style */
+.navbar-expand-md{
+    background-color: black !important;
+}
+.navbar-expand-md .navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link{
+    padding: 0 12px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    transition: border 0.6s;
+    border-bottom: 4px solid #129c80;
+    margin-top: 5px;
+}
+/* Banner Styles */
+.banner .jumbotron{
+    background-image: url('../pics/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    border-radius: 0 0 12% 12%;
+}
+.banner .jumbotron #content {
+    padding-top: 80px;
+}
+.banner .jumrotron #content h1{
+    font-size: 3.2rem;
+    text-shadow: 1px 1px 1px white;
+    line-height: 4rem;
+}
+.banner .jumbotron #content hr{
+    width: 7.5%;
+    border: 3px solid white;
+    margin: 25px auto;
+}
+.banner .jumbotron #content p{
+    font-style: italic;
+}
+.banner .jumbotron #content .btn-success{
+    background-color: #129c80;
+    padding: 16px;
+    border: none;
+    border-radius: 30%;
+}
+.banner .jumbotron #content .btn-success:hover{
+    color: #129c80;
+    background-color: white;
+    transition: background-color 2s ease-in-out;
+}
