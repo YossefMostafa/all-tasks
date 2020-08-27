@@ -1,0 +1,492 @@
+@charset 'utf-8';
+/* Main Styles */
+html , body{
+    line-height: 1.7rem;
+}.zero{
+    background-color: #A5C926;
+}
+/* Header Styles */
+.header{
+    background-color: #A5C926;
+    padding: 7px;
+}
+.header .contact{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.header .contact .col{
+    display: flex;
+}
+.header .contact .social i{
+    font-size: 17px;
+}
+.header .social a:hover,
+.nav2 .social a:hover{
+    background-color: black;
+    opacity: 0.3;
+    border-radius: 70%;
+    padding: 3px;
+}
+.header .email a{
+    text-decoration: underline;
+    color: white;
+}
+/* Navbar Styles */
+.nav-bar{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    background-color: white;
+}
+.nav-bar .navbar-brand{
+    font-size: 25px;
+}
+.nav-bar .nav-items{
+    font-size: 12px;
+}
+.navbar .navbar-nav a:hover,
+.nav2 .navbar-nav a:hover{
+    text-decoration: underline;
+}
+.zero{
+    background-color: #A5C926;
+    font-size: 15px;
+    color: white;
+    display: inline;
+    border-radius: 50%;
+    padding: 1px 5px 1px 5px;
+}
+/* Showcase Styles */
+.showcase .jumbotron{
+    background-image: url(../pics/bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 630px;
+    font-family: 'Open Sans', sans-serif;
+}
+.showcase .welcome{
+    position: relative;
+    background-color: white;
+    border-radius: 3%;
+    width: 570px;
+    height: 310px;
+    top: 7rem;
+    left: 30rem;
+    transition: 2s;
+    animation-delay: 5s;
+}
+.showcase .welcome h5{
+    color: #A5C926;
+    font-size: 13px;
+}
+.showcase .welcome .btn{
+    font-size: 15px;
+    background-color: #A5C926;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 30px 13px 30px;
+    text-shadow: none;
+}
+.showcase .welcome .btn:hover{
+    transition: 0.3s;
+    padding: 14px 31px 14px 31px;
+    font-size: 16px;
+}
+.showcase .zero2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    background-color: white;
+    position: relative;
+    top: 14.3rem;
+    left: 46rem;
+    width: 50px;
+    padding: 200px auto;
+    border-radius: 50px;
+}
+/* Catlalog Styles */
+.catalog .col1{
+    display: flex;
+    position: relative;
+    width: 570px;
+    height: 190px;
+    background-color: #FFC12C;
+    border-radius: 10px;
+    right: 3rem;
+    top: 6rem;
+}
+.catalog .col1 img{ 
+    position: relative;
+    bottom: 4rem;
+}
+.catalog .col1 .btn{
+    position: relative;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 30px 13px 30px;
+    height: 50px;
+    top: 4rem;
+    right: 11rem;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+.catalog .col1 .btn:hover{
+    transition: 0.3s;
+    padding: 14px 31px 14px 31px;
+    font-size: 15.5px;
+}
+.catalog .col1 h4{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    top: 2rem;
+    left: 2.5rem;
+    font-weight: 500;
+}
+.catalog .col2{
+    display: flex;
+    position: relative;
+    width: 570px;
+    height: 190px;
+    background-color: #FB416B;
+    border-radius: 10px;
+    left: 37rem;
+    bottom: 6rem;
+}
+.catalog .col2 h4{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    top: 2rem;
+    right: 5rem;
+}
+.catalog .col2 .btn{
+    position: relative;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 30px 13px 30px;
+    height: 50px;
+    top: 4rem;
+    right: 13rem;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+.catalog .col2 .btn:hover{
+    transition: 0.3s;
+    padding: 14px 31px 14px 31px;
+    font-size: 15.5px;
+}
+.catalog .col2 img{
+    position: relative;
+    bottom: 2.5rem;
+    left: 21rem;
+}
+/* Stuffed Styles */
+.stuffed .animals,
+.wooden .toys,
+.catalog .animals,{
+    display: flex;
+    justify-content: center;
+}
+.stuffed .description h5,
+.wooden .description h5{
+    font-size: small;
+    color: black;
+}
+.stuffed .description a,
+.wooden .description a{
+    position: relative;
+    bottom: 60px;
+    left: 66rem;
+    text-decoration: none;
+}
+.stuffed .description a:hover,
+.wooden .description a:hover{
+    text-decoration: underline;
+}
+.stuffed .animals .btn,
+.wooden .toys .btn,
+.catalog .animals .btn{
+    position: relative;
+    bottom: 20px;
+    color: white;
+    background-color: #A5C926;
+    border: none;
+    border-radius: 20px;
+}
+.stuffed .animals .row a:hover,
+.wooden  .toys .row a:hover,
+.catalog .animals .row a:hover{
+    width: 19rem;
+}
+/* Wooden Toys Styles */
+.wooden{
+    padding-top: 50px;
+}
+/* About Styles */
+.about{
+    padding-top: 150px;
+    font-family: 'Epilogue', sans-serif;
+}
+.about .jumbotron{
+    padding-top: 125px;
+    background-image: url(../pics/bg4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.about i{
+    color: #A5C926;
+}
+.about a i:hover{
+    height: 30px;
+    width: 30px;
+}
+.webflow{
+    padding-top: 100px;
+    font-family: 'Varela Round', sans-serif;
+}
+.webflow .made h5{
+    font-size: 13px;
+    font-weight: bold;
+    color: #A5C926;
+}
+.webflow .made h1{
+    font-size: 33px;
+}
+.webflow .available{
+    position: relative;
+    padding-top: 50px;
+    margin-left: 15rem;
+    top: 50px;
+}
+.webflow .available h2{
+    position: relative;
+    font-weight: 500;
+    top: 6rem;
+}
+.webflow .available hr{
+    position: relative;
+    top: 9rem;
+    right: 24rem;
+    width: 75px;
+    border-top: 2px solid #A5C926;
+}
+.webflow .available h5{
+    line-height: inherit;
+    font-size: 15px;
+    color: #B2B2B2;
+}
+.webflow .available img{
+    border-radius: 15px;
+}
+.webflow .btn{
+    position: relative;
+    background-color: #A5C926;
+    padding: 5px 10px 5px 10px ;
+    top: 22rem;
+    right: 71.5rem;
+    border: none;
+    padding: 12px 25px 12px 25px;
+    border-radius: 30px;
+}
+/* Share Styles */
+.share{
+    position: relative;
+    padding-top: 250px;
+    margin-left: 15rem;
+}
+.share .logo{
+    position: relative;
+    left: 1rem;
+    top: 20px;
+}
+.share .logo .fas{
+    position: relative;
+    top: 5px;
+    background-color: #A5C926;
+    border-radius: 60px;
+    padding: 15px 20px 15px 20px;
+}
+.share .logo h4{
+    position: relative;
+    left: 2rem;
+    font-family: 'Varela Round', sans-serif;
+}
+.share .logo span{
+    color: #A5C926;
+}
+.share .mail{
+    position: relative;
+    left: 33rem;
+    bottom: 2rem;
+}
+input[type=email]{
+    width: 180%;
+    border-radius: 15px;
+}
+input[type=submit]{
+    position: relative;
+    font-weight: bold;
+    color: white;
+    width: 120px;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 30px;
+    background-color: #A5C926;
+    left: 25rem;
+    bottom: 2.5rem;
+}
+/* Inistgram Styles */
+.in{
+    padding-top: 100px;
+}
+.in h5{
+    font-size: small;
+    color: #A5C926;
+}
+.in h3{
+    font-size: 32px;
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+.in .row{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 4rem;
+}
+.in .row img{
+    border-radius: 15px;
+}
+.in .row a:hover img{
+    width: 190px;
+    height: 195px;
+    transition: 0.3s;
+}
+.in .btn{
+    background-color: #A5C926;
+    border: none;
+    font-weight: 500;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    position: relative;
+    top: 50px;
+}
+.in .btn:hover{
+    padding: 12px 32px 12px 32px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+/* Footer styles */
+footer{
+    padding-top: 150px;
+}
+footer .nav2{
+    background-color: #A5C926;
+    padding-top: 30px;
+    height: 250px;
+}
+footer .nav2 .navbar-brand{
+    font-weight: 500;
+}
+footer .nav2 .nav-items2{
+    margin-left: 12rem;
+    color: white;
+    text-transform: none;
+}
+footer hr{
+    border-top: 0.5px solid white;
+    position: relative;
+    bottom: 4rem;
+    opacity: 0.3;
+}
+footer .credits h5,
+footer .credits p{
+    font-size: smaller;
+    position: relative;
+}
+footer .credits{
+    position: relative;
+    top: 7rem;
+}
+footer .credits h5{
+    left: 1rem;
+    color: white;
+    font-size: smaller;
+    font-weight: 300;
+    position: relative;
+    bottom: 2rem;
+}
+footer .credits p{
+    position: relative;
+    left: 52rem;
+    bottom: 4rem;
+    color: white;
+    font-size: smaller;
+    font-weight: 300;
+}
+/* Delivery Styles */
+.back{
+    padding-top: 50px;
+    border: 0.5px solid #E7E7E7;
+    border-radius: 30px;
+    position: relative;
+    top: 50px;
+    left: 14rem;
+    width: 70%;
+    height: 50px;
+}
+.back .go-back{
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+}
+.back p{
+    display: inline;
+}
+.delivery{
+    font-family: 'Varela Round', sans-serif;
+    padding-top: 200px;
+}
+.delivery h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.delivery h5{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: inherit;
+}
+.delivery .contact{
+    position: relative;
+    left: 48rem;
+    bottom: 35rem;
+    border: 0.5px solid #E7E7E7;
+    width: 25%;
+    height: 200px;
+    border-radius: 20px;
+}
+.delivery .contact .answer{
+    position: relative;
+    top: 50px;
+}
+.delivery .contact h3{
+    font-size: 17px;
+}
+.delivery .contact .btn{
+    font-size: 12px;
+    background-color: #A5C926;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+}

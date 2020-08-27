@@ -48,12 +48,12 @@ a{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 40px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .nav-bar .nav-items .links{
     padding-right: 20px;
     padding-top: 17px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .nav-bar .nav-items .links ul li {
     display: inline-block;
@@ -72,15 +72,15 @@ a{
     background-image: url(../pics/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 565px;
+    height: 588px;
 }
 .Showcase .showcase-text{
     position: relative;
-    left: 290px;
-    top: 85px;
+    left: 235px;
+    top: 110px;
 }
 .Showcase .showcase-text .line1{
-    font-size: 3.5rem;
+    font-size: 3.7rem;
     position: relative;
     font-family: 'Poppins', sans-serif;
     color: #252525;
@@ -88,7 +88,7 @@ a{
 
 }
 .Showcase .showcase-text .line2{
-    font-size: 4rem;
+    font-size: 4.4rem;
     position: relative;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -96,20 +96,20 @@ a{
 }
 .Showcase .showcase-text .line3{
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
 }
 .Showcase button{
     position: relative;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     background-color: #252525;
     color: white;
-    padding: 15px 40px 15px 40px;
+    padding: 17px 45px 17px 45px;
     border: none;
     text-transform: uppercase;
-    top: 120px;
-    left: 290px;
+    top: 140px;
+    left: 235px;
 }
 .Showcase button:hover{
     background-color: tomato;
@@ -117,54 +117,48 @@ a{
 }
 /* About Styles */
 .about{
-    padding-top: 50px;
-}
-.about .words .line1{
-    position: relative;
+    padding-top: 200px;
     font-family: 'Poppins', sans-serif;
-    color: tomato;
-    font-weight: 700;
-    font-size: 40px;
-    text-transform: uppercase;
-    top: 160px;
-    left: 220px;
-}
-.about .words .line2{
-    padding-top: 25px;
     position: relative;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    color: #252525;
-    left: 220px;
-    top: 150px;
+    left: 4rem;
 }
-.about .words .line3{
-    padding-top: 10px;
+.about .words{
     position: relative;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    color: #252525;
-    left: 220px;
-    top: 150px;
+    top: 10px;
 }
 .about .words .coffee img{
     position: relative;
-    left: 800px;
-    bottom: 165px;
+    left: 570px;
+    bottom: 315px;
+}
+.about .words .line1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #F76D37;
+    text-transform: uppercase;
+}
+.about .words .line2{
+    padding-top: 10px;
+    font-size: 16px;
+    color: #4C4C4B;
+    font-weight: 300;
+}
+.about .words .line3{
+    font-weight: 300;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #4C4C4B;
 }
 .about button{
     position: relative;
     color: white;
     background-color: #252525;
-    padding: 15px 40px 15px 40px;
+    padding: 15px 45px 15px 45px;
     border: none;
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: large;
-    bottom: 350px;
-    left: 220px;
+    bottom: 500px;
+    left: 180px;
 }
 .about button:hover{
     background-color: tomato;
@@ -413,7 +407,7 @@ textarea{
 }
 input[type=submit]{
     color: white;
-    background-color: red;
+    background-color: #D1300F;
     border: none;
     border-radius: 40px;
     padding: 20px 60px 20px 60px;
