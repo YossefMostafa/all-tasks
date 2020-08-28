@@ -1,0 +1,113 @@
+@charset 'utf-8';
+/* Main Styles */
+html , body{
+    line-height: 1.7rem;
+}
+/* Navbar Styles */
+header{
+    background-color: #0A1F44;
+    height: 50px;
+}
+header h5{
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+}
+header .btn{
+    background-color: #E02006;
+    color: white;
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+}
+.navbar{
+    padding-top: 100px;
+}
+.navbar-nav{
+    position: relative;
+    color: #384967;
+    font-family: 'Roboto Condensed', sans-serif;
+    left: 30rem;
+    font-size: 20px;
+}
+.showcase h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 60px;
+    position: relative;
+    top: 50px;
+    font-weight: 700;
+    color: #0A1F44;
+}
+.showcase span{
+    color: #E02006;
+}
+.showcase img{
+    padding-left: 100px;
+}
+.showcase button{
+    position: relative;
+    left: 15rem;
+    bottom: 6rem;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 30px 10px 30px;
+}
+.showcase .jumbotron .free{
+    background-color: #E02006;
+}
+.showcase .jumbotron .premuim{
+    background-color: #0A1F44;
+}
+/* Product Styles */
+.product .container{
+    padding-top: 50px;
+    position: relative;
+    right: 90px;
+}
+.product .line1,
+.features .line1{
+    font-size: 15px;
+    color: #E02006;
+}
+.product .line2,
+.features .line2,
+.testimonials .line2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.product .line2 span,
+.features .line2 span{
+    color: #E02006;
+}
+.product .line3,
+.features .line3,
+.testimonials .line3{
+    color: #445470;
+}
+.product .fas{
+    color: #E02006;
+}
+/* featurs styles */
+.features{
+    padding-top: 200px;
+}
+.features .container .row .fas{
+    color: #E02006;
+}
+/* testimonials styles */
+.testimonials{
+    padding-top: 200px;
+}
+.testimonials .line3{
+    padding-bottom: 100px;
+}
+.testimonials .fas{
+    color: #FFE200;
+}
+.testimonials img{
+    position: relative;
+    bottom: 50px;
+    border-radius: 200px;
+    height: 100px;
+    width: 100px;
+}
