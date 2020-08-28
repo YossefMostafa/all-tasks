@@ -111,3 +111,11 @@ header .btn{
     height: 100px;
     width: 100px;
 }
+.testimonials .border .quote .fas{
+    color: white;
+    background-color: #E02006;
+    padding: 10px;
+    border-radius: 50px;
+    position: relative;
+    top: 25px;
+}
