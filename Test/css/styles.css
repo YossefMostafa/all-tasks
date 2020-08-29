@@ -65,13 +65,16 @@ header .btn{
     right: 90px;
 }
 .product .line1,
-.features .line1{
+.features .line1,
+.contact .line1{
     font-size: 15px;
     color: #E02006;
 }
 .product .line2,
 .features .line2,
-.testimonials .line2{
+.testimonials .line2,
+.pricing .line2,
+.faq .line2{
     font-weight: 700;
     font-size: 40px;
 }
@@ -81,18 +84,28 @@ header .btn{
 }
 .product .line3,
 .features .line3,
-.testimonials .line3{
+.testimonials .line3,
+.pricing .line3,
+.contact .line2{
     color: #445470;
 }
 .product .fas{
     color: #E02006;
 }
 /* featurs styles */
-.features{
+.features,
+.pricing{
     padding-top: 200px;
+}
+.features .line3{
+    padding-bottom: 50px;
 }
 .features .container .row .fas{
     color: #E02006;
+}
+.features .container .card-text{
+    font-weight: 500;
+    color: #0A1F44;
 }
 /* testimonials styles */
 .testimonials{
@@ -118,4 +131,124 @@ header .btn{
     border-radius: 50px;
     position: relative;
     top: 25px;
+}
+/* pricing styles */
+.pricing{
+    width: 835px;
+    height: 500px;
+    position: relative;
+    left: 24rem;
+}
+.pricing .line3{
+    padding-bottom: 50px;
+}
+.pricing .col1{
+    background-color: #E02006;
+    position: relative;
+    width: 475px;
+    height: 500px;
+    right: 15px;
+}
+.pricing .col1 img{
+    position: relative;
+    border-radius: 200px;
+    height: 50px;
+    width: 50px;
+    top: 100px;
+}
+.pricing .col1 p{
+    position: relative;
+    top: 130px;
+    color: white;
+}
+.pricing .col1 h5{
+    position: relative;
+    top: 130px;
+    color: white;
+}
+.pricing .col1 .fas{
+    position: relative;
+    top: 120px;
+}
+.pricing .col1 .quote .fas{
+    position: relative;
+    top: 170px;
+    background-color: #E02006;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50px;
+}
+.pricing .col2{
+    position: relative;
+    top: 50px;
+    right: 40px;
+}
+.pricing .col2 .old-price{
+    position: relative;
+    right: 70px;
+    font-size: 40px;
+    text-decoration-line: line-through;
+    color: #53627C;
+}
+.pricing .col2 .discount{
+    position: relative;
+    bottom: 47px;
+    left: 140px;
+    color: white;
+    background-color: #E02006;
+    font-size: 20px;
+    width: 105px;
+    border-radius: 50px;
+    padding: 5px 10px 5px 10px;
+}
+.pricing .col2 ul{
+    list-style: none;
+    position: relative;
+    bottom: 25px;
+    right: 20px;
+}
+.pricing .col2 .new-price{
+    font-size: 70px;
+    color: #0A1F44;
+    position: relative;
+    bottom: 40px;
+}
+.pricing .col2 .back{
+    font-size: 15px;
+    position: relative;
+    bottom: 30px;
+    color: #0A1F44;
+}
+.pricing .col2 .btn{
+    background-color: #E02006;
+    color: white;
+    position: relative;
+    bottom: 20px;
+    padding: 5px 70px 5px 70px;
+    border-radius: 50px;
+}
+.pricing .col2 p{
+    position: relative;
+    bottom: 15px;
+    font-size: small;
+}
+/* Faq Styles */
+.faq{
+    padding-top: 500px;
+}
+.faq .line2{
+    padding-bottom: 50px;
+}
+/* Contact Styles */
+.contact{
+    padding-top: 250px;
+}
+.contact .submit input{
+    background-color: #E02006;
+    color: white;
+    padding: 10px 245px 10px 245px;
+    position: relative;
+    top: 10px;
+    border: none;
+    border-radius: 50px;
 }
