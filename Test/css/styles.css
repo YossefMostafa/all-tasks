@@ -74,7 +74,8 @@ header .btn{
 .features .line2,
 .testimonials .line2,
 .pricing .line2,
-.faq .line2{
+.faq .line2,
+.buy .line2{
     font-weight: 700;
     font-size: 40px;
 }
@@ -251,4 +252,33 @@ header .btn{
     top: 10px;
     border: none;
     border-radius: 50px;
+}
+.contact .row h3,
+.contact .row h5,
+.contact .row p{
+    font-size: 15px;
+    color: black;
+}
+/* Buy Styles */
+.buy{
+    padding-top: 200px;
+}
+.buy .btn{
+    color: white;
+    background-color: #E02006;
+    position: relative;
+    top: 40px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+}
+/* footer styles */
+footer{
+    position: relative;
+    top: 200px;
+    background-color: #0A1F44;
+    height: 250px;
+}
+footer  hr{
+    border-top: 0.1px solid white;
+    opacity: 0.1;
 }

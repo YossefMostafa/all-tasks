@@ -214,7 +214,7 @@ html , body{
 }
 .stuffed .animals .btn,
 .wooden .toys .btn,
-.catalog .animals .btn{
+.catalog .btn{
     position: relative;
     bottom: 20px;
     color: white;
@@ -222,9 +222,9 @@ html , body{
     border: none;
     border-radius: 20px;
 }
-.stuffed .animals .row a:hover,
-.wooden  .toys .row a:hover,
-.catalog .animals .row a:hover{
+.stuffed .animals a:hover,
+.wooden  .toys a:hover,
+.catalog .animals a:hover{
     width: 19rem;
 }
 /* Wooden Toys Styles */
@@ -436,6 +436,11 @@ footer .credits p{
     font-weight: 300;
 }
 /* Delivery Styles */
+.catalog .animals a:hover{
+    : 1width9rem;
+    transition: 0.5s;
+}
+}
 .back{
     padding-top: 50px;
     border: 0.5px solid #E7E7E7;
@@ -456,7 +461,7 @@ footer .credits p{
 }
 .delivery{
     font-family: 'Varela Round', sans-serif;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 .delivery h2{
     font-size: 30px;
@@ -489,4 +494,26 @@ footer .credits p{
     color: white;
     padding: 10px 25px 10px 25px;
     border-radius: 30px;
+}
+/*Catalog Styles */
+.back{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    margin-top: 50px;
+    width: 950px
+}
+.catalog .description .buttons{
+    float: right;
+    position: relative;
+    bottom: 35px;
+    font-size: 13px;
+}
+.catalog .description .buttons a{
+    color: black;
+}
+.catalog .description .buttons .btn{
+    position: relative;
+    top: 0.1px;
+    right: 10px;
 }
